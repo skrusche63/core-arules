@@ -25,7 +25,7 @@ import java.util.List;
  * done by these algorithms.
  * 
  * @see TopKNRAlgorithm
- * @see AlgoTopKRules
+ * @see TopKAlgorithm
  * @see Database
  * @author Philippe Fournier-Viger
  */

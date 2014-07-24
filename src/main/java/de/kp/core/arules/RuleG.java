@@ -31,7 +31,7 @@ import java.util.BitSet;
  * and consequent of the rule are precalculated and kept (as explained in the papers).
  * 
  * @see TopKNRAlgorithm
- * @see AlgoTopKRules
+ * @see TopKAlgorithm
  * @author Philippe Fournier-Viger
  */
 public class RuleG implements Comparable<RuleG>{
