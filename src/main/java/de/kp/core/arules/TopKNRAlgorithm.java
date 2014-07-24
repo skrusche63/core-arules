@@ -48,7 +48,7 @@ import de.kp.core.arules.Vertical;
  * @author Dr. Stefan Krusche (Dr. Krusche & Partner)
  *
  */
-public class TopNRAlgorithm {
+public class TopKNRAlgorithm {
 	
 	/* 
 	 * Statistics
@@ -94,7 +94,7 @@ public class TopNRAlgorithm {
 	/**
 	 * Default constructor
 	 */
-	public TopNRAlgorithm() {}
+	public TopKNRAlgorithm() {}
 
 	/**
 	 * Run the algorithm.

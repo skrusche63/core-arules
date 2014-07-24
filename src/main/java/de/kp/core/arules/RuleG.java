@@ -30,7 +30,7 @@ import java.util.BitSet;
  * for optimization, the maximum item id of the antecedent
  * and consequent of the rule are precalculated and kept (as explained in the papers).
  * 
- * @see TopNRAlgorithm
+ * @see TopKNRAlgorithm
  * @see AlgoTopKRules
  * @author Philippe Fournier-Viger
  */

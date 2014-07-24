@@ -24,7 +24,7 @@ import java.util.List;
  * are implemented as LinkedList for efficient removal of infrequent items as 
  * done by these algorithms.
  * 
- * @see TopNRAlgorithm
+ * @see TopKNRAlgorithm
  * @see AlgoTopKRules
  * @see Database
  * @author Philippe Fournier-Viger
