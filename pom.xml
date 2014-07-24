@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>core-arules</groupId>
+  <artifactId>core-arules</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <dependencies>
+
+    <!--  cascading (from conjars.org) -->
+    <dependency>
+      <groupId>cascading</groupId>
+      <artifactId>cascading-core</artifactId>
+      <version>2.5.4</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>cascading</groupId>
+      <artifactId>cascading-hadoop</artifactId>
+      <version>2.5.4</version>
+    </dependency>
+    
+    <!-- hadoop -->    
+    <dependency>
+	  <groupId>org.apache.hadoop</groupId>
+	  <artifactId>hadoop-core</artifactId>
+	  <version>1.2.1</version>
+    </dependency>      
+
+    <dependency>
+	  <groupId>org.slf4j</groupId>
+	  <artifactId>slf4j-api</artifactId>
+	  <version>1.7.7</version>
+    </dependency>
+
+    <dependency>
+	  <groupId>org.slf4j</groupId>
+	  <artifactId>slf4j-log4j12</artifactId>
+	  <version>1.7.7</version>
+    </dependency>
+  
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>conjars.org</id>
+      <url>http://conjars.org/repo</url>
+    </repository>
+  </repositories>
+  
+  <name>Core-ARULES</name>
+  <description>An extension of the Association Rules implementation of the SPADE algorithm using Cascading and Hadoop.</description>
+  <organization>
+  	<name>Dr. Krusche &amp; Partner PartG</name>
+  	<url>http://dr-kruscheundpartner.de</url>
+  </organization>
+</project>
