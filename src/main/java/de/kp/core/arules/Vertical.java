@@ -18,10 +18,13 @@ package de.kp.core.arules;
 * If not, see <http://www.gnu.org/licenses/>.
 */
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.BitSet;
 
-public class Vertical {
+public class Vertical implements Serializable {
+
+	private static final long serialVersionUID = -2241849627931027024L;
 
 	/*
 	 * The max value of all the items associated with the
