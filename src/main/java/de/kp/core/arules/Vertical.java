@@ -20,7 +20,9 @@ package de.kp.core.arules;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.BitSet;
+import java.util.List;
 
 public class Vertical implements Serializable {
 
@@ -41,7 +43,7 @@ public class Vertical implements Serializable {
 	 */
 	public int[] tableItemCount; // [item], support
 
-	public ArrayList<Transaction> transactions;
+	public List<Transaction> transactions;
 	
 	public Vertical() {
 		this.transactions = new ArrayList<Transaction>();
@@ -49,6 +51,17 @@ public class Vertical implements Serializable {
 	
 	public Vertical(int size) {
 		initialize(size);		
+	}
+	
+	public Vertical(BitSet[] tableItemTids, int[] tableItemCount,Transaction[] transactions,int max) {
+		
+		this.tableItemTids  = tableItemTids;
+	    this.tableItemCount = tableItemCount;
+	    
+	    this.transactions = Arrays.asList(transactions);
+	    
+	    this.max = max;
+	    
 	}
 	
 	public void setSize(int size) {
